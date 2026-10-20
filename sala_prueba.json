@@ -1,0 +1,135 @@
+{
+  "id": "sala-prueba-001",
+  "code": "AOK122",
+  "name": "eleccion de nuevo conserje",
+  "active": true,
+  "creatorId": "00001",
+  "formato": "99999",
+  "fechaVot": "2026-10-05",
+  "padron": [
+    "01010",
+    "00002",
+    "33333",
+    "88889",
+    "20253"
+  ],
+  "parties": [
+    {
+      "id": "party-rojo",
+      "nombre": "Rojo",
+      "siglas": "ROJO",
+      "numero": "1",
+      "color": "#dc2626",
+      "logo": "",
+      "members": []
+    },
+    {
+      "id": "party-azul",
+      "nombre": "Azul",
+      "siglas": "AZUL",
+      "numero": "2",
+      "color": "#2563eb",
+      "logo": "",
+      "members": []
+    },
+    {
+      "id": "party-amarillo",
+      "nombre": "Amarillo",
+      "siglas": "AMARILLO",
+      "numero": "3",
+      "color": "#eab308",
+      "logo": "",
+      "members": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "candidate-carlos",
+      "nombre": "Carlos",
+      "identificacion": "17178",
+      "cargo": "Conserje",
+      "partyId": "party-rojo",
+      "foto": ""
+    },
+    {
+      "id": "candidate-daniela",
+      "nombre": "Daniela",
+      "identificacion": "22334",
+      "cargo": "Conserje",
+      "partyId": "party-azul",
+      "foto": ""
+    },
+    {
+      "id": "candidate-esteici",
+      "nombre": "Esteici",
+      "identificacion": "89890",
+      "cargo": "Conserje",
+      "partyId": "party-amarillo",
+      "foto": ""
+    }
+  ],
+  "eventos": [
+    {
+      "id": "event-cafe-azul",
+      "titulo": "Cafe azul",
+      "fecha": "2026-10-04",
+      "inicio": "",
+      "fin": "",
+      "descripcion": "cafecito para unir al equipo y charlar",
+      "partyId": "party-azul",
+      "authorId": "22334"
+    },
+    {
+      "id": "event-fiesta-rojos",
+      "titulo": "Fiesta de los rojos",
+      "fecha": "2026-10-01",
+      "inicio": "",
+      "fin": "",
+      "descripcion": "fiesta para conocer a los votantes, habran carnitas y cocacola",
+      "partyId": "party-rojo",
+      "authorId": "17178"
+    },
+    {
+      "id": "event-cena-amarillos",
+      "titulo": "Cena de los amarillos",
+      "fecha": "2026-10-02",
+      "inicio": "",
+      "fin": "",
+      "descripcion": "cena para charlar y conocernos",
+      "partyId": "party-amarillo",
+      "authorId": "89890"
+    }
+  ],
+  "ads": [
+    {
+      "id": "ad-azul",
+      "partyId": "party-azul",
+      "authorId": "22334",
+      "ts": 0,
+      "titulo": "ven al cafe y conoce quien es la mejor opcion",
+      "foto": "",
+      "descripcion": "va a haber un cafe donde podras descubrir porque Daniela debe ser la proxima conserje, conoceras la confianza, inteligencia, y destreza que Daniela tiene."
+    },
+    {
+      "id": "ad-rojo",
+      "partyId": "party-rojo",
+      "authorId": "17178",
+      "ts": 0,
+      "titulo": "unete a la fiesta",
+      "foto": "",
+      "descripcion": "en esta fiesta conoceras a Carlos y descubriras que su experiencia y amabilidad lo vuelven el conserje mas optimo"
+    },
+    {
+      "id": "ad-amarillo",
+      "partyId": "party-amarillo",
+      "authorId": "89890",
+      "ts": 0,
+      "titulo": "ven a cenar, te esperamos!",
+      "foto": "",
+      "descripcion": "ven a cenar y podras hablar con Esteici y comprobar por ti mismo la inteligencia, pensamiento rapido, y carisma que la hacen la conserje mas optima."
+    }
+  ],
+  "votes": [],
+  "requests": [],
+  "alerts": []
+}
